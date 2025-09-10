@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/lancamentos")
-public class CantonmentController {
+public class LancamentoController {
 
     @Autowired
     private LancamentoRepository lancamentoRepository;
