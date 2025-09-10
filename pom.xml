@@ -6,13 +6,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.5.5</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+		<relativePath/> </parent>
 	<groupId>br.com.controledegastos</groupId>
 	<artifactId>controle-de-gastos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>controle-de-gastos</name>
-	<description>plicação para controle de gastos pessoais</description>
+	<description>aplicação para controle de gastos pessoais</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -49,11 +48,7 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
