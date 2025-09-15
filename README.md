@@ -32,7 +32,7 @@ Para rodar o projeto localmente, você precisa ter instalado:
 ---
 
 ## 🗂 Estrutura do projeto
-
+```
 CRUD-Controle-Gastos/
 ├── src/
 │ ├── main/
@@ -43,8 +43,7 @@ CRUD-Controle-Gastos/
 ├── pom.xml ← Dependências e configuração do Maven
 ├── mvnw, mvnw.cmd ← Maven Wrapper
 └── .gitignore
-
----
+```
 
 ## ⚙️ Configuração do banco de dados
 
